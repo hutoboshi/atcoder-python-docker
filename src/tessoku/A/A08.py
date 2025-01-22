@@ -13,6 +13,7 @@ D = [None] * Q
 for i in range(Q):
   A[i],B[i],C[i],D[i] = map(int,input().split())
 
+#累積和
 # 配列Zはすでに初期化済み
 # 横方向に累積和をとる
 # X[i-1][j-1]などになっているのは、配列が0番目から始まるため
