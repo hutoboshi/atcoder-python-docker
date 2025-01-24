@@ -1,3 +1,4 @@
+# ビット全探索
 def bit_explore(items):
     n = len(items)
     all_subsets = []
